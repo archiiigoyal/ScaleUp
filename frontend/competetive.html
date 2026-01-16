@@ -41,6 +41,10 @@
             },
         };
     </script>
+    <script type="module">
+  import { protectPage } from "./authGuard.js";
+  protectPage();
+</script>
     <style type="text/tailwindcss">
         body { font-family: 'Inter', sans-serif; }
         .no-scrollbar::-webkit-scrollbar { display: none; }
